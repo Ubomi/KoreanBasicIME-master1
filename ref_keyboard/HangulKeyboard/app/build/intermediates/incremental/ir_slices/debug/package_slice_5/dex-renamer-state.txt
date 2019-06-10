@@ -1,0 +1,4 @@
+#Fri May 03 16:14:22 KST 2019
+base.0=C\:\\Users\\dbqha\\Downloads\\Git\\HangulKeyboard\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "779633464039",
+    "firebase_url": "https://koreanbasicime-master1.firebaseio.com",
+    "project_id": "koreanbasicime-master1",
+    "storage_bucket": "koreanbasicime-master1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779633464039:android:a4f211b9445ca4ac",
+        "android_client_info": {
+          "package_name": "com.halbae87.koreanbasicime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779633464039-fn392ldrbhcalirqb14ho7lm6iroj9rk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.halbae87.koreanbasicime",
+            "certificate_hash": "4d6f1ecf15fbca5261a7d03922c1eef6f4efc4e8"
+          }
+        },
+        {
+          "client_id": "779633464039-fqho625j0b77g53hvgo15ivud03cvfdn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEgaK1qsthpueatUjOHSwiUK1jvaFPq68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "779633464039-fqho625j0b77g53hvgo15ivud03cvfdn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

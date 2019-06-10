@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="prediction_modes">
+    <item>"Ingen"</item>
+    <item>"Grunnleggende"</item>
+    <item>"Avansert"</item>
+  </string-array>
+    <string name="added_word">"<ns1:g id="WORD">%s</ns1:g>: Lagret"</string>
+    <string name="alternates_for_a">"åæáàâãä"</string>
+    <string name="alternates_for_c">"ç"</string>
+    <string name="alternates_for_e">"éèêë"</string>
+    <string name="alternates_for_i">"íìîï"</string>
+    <string name="alternates_for_n">"ñ"</string>
+    <string name="alternates_for_o">"ôóòöõœø"</string>
+    <string name="alternates_for_s">"ß§"</string>
+    <string name="alternates_for_u">"üùúû"</string>
+    <string name="alternates_for_y">"ýÿ"</string>
+    <string name="auto_cap">"Stor forbokstav"</string>
+    <string name="auto_cap_summary">"Start automatisk setninger med stor bokstav"</string>
+    <string name="auto_complete_dialog_title">"Autofullfør"</string>
+    <string name="auto_correction">"Autokorrektur"</string>
+    <string name="auto_correction_summary">"Autokorriger forrige ord"</string>
+    <string name="auto_punctuate">"Automatisk punktum"</string>
+    <string name="english_ime_name">"Skjermtastatur"</string>
+    <string name="english_ime_settings">"Innstillinger for skjermtastatur"</string>
+    <string name="hit_correction">"Rett opp skrivefeil"</string>
+    <string name="hit_correction_land">"Rett opp skrivefeil i breddeformat"</string>
+    <string name="hit_correction_land_summary">"Slå på retting av skrivefeil"</string>
+    <string name="hit_correction_summary">"Slå på retting av skrivefeil"</string>
+    <string name="label_alpha_key">"ABC"</string>
+    <string name="label_alt_key">"ALT"</string>
+    <string name="label_done_key">"Utfør"</string>
+    <string name="label_go_key">"Gå"</string>
+    <string name="label_next_key">"Neste"</string>
+    <string name="label_phone_key">"123"</string>
+    <string name="label_symbol_key">"?123"</string>
+    <string name="prediction">"Ordforslag"</string>
+    <string name="prediction_category">"Innstillinger for ordforslag"</string>
+    <string name="prediction_landscape">"Større tekstfelt"</string>
+    <string name="prediction_landscape_summary">"Skjul ordforslag i breddeformat"</string>
+    <string name="prediction_summary">"Skru på autofullføring under skriving"</string>
+    <string name="sound_on_keypress">"Lyd ved tastetrykk"</string>
+    <string name="tip_access_symbols">"Få tilgang til tall og symboler"</string>
+    <string name="tip_add_to_dictionary">"Trykk lenge på ordet lengst til venstre for å legge det til i ordlisten"</string>
+    <string name="tip_dismiss">"Trykk tilbakeknappen, ↶, for å lukke tastaturet"</string>
+    <string name="tip_long_press">"Hold en tast nede for å se aksenterte tegn (ø, ö, osv.)"</string>
+    <string name="vibrate_on_keypress">"Vibrer ved tastetrykk"</string>
+</resources>

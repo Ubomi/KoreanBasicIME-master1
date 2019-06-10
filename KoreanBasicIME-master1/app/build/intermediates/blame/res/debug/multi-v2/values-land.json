@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\dbqha\\Downloads\\Git\\KoreanBasicIME-master1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\dbqha\\.gradle\\caches\\transforms-2\\files-2.1\\d7bb98da9cc76947bbe503a2aea8ae3a\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\dbqha\\Downloads\\Git\\KoreanBasicIME-master1\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "from": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "692",
+                        "endColumns": "42",
+                        "endOffsets": "730"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endColumns": "42",
+                        "endOffsets": "302"
+                    }
+                }
+            ]
+        }
+    ]
+}
