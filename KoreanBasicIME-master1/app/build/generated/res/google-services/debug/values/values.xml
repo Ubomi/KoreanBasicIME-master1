@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">779633464039-fqho625j0b77g53hvgo15ivud03cvfdn.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://koreanbasicime-master1.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">779633464039</string>
-    <string name="google_api_key" translatable="false">AIzaSyBEgaK1qsthpueatUjOHSwiUK1jvaFPq68</string>
-    <string name="google_app_id" translatable="false">1:779633464039:android:a4f211b9445ca4ac</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBEgaK1qsthpueatUjOHSwiUK1jvaFPq68</string>
-    <string name="google_storage_bucket" translatable="false">koreanbasicime-master1.appspot.com</string>
-    <string name="project_id" translatable="false">koreanbasicime-master1</string>
+    <string name="default_web_client_id" translatable="false">85994782863-gcdga7ar6fosvn35m9mahbc5gcsa6oi9.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://test-korea-ime.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">85994782863</string>
+    <string name="google_api_key" translatable="false">AIzaSyDNBy1gtfqPstsbrh4g43R7K7N1oDXEfs4</string>
+    <string name="google_app_id" translatable="false">1:85994782863:android:a4f211b9445ca4ac</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDNBy1gtfqPstsbrh4g43R7K7N1oDXEfs4</string>
+    <string name="google_storage_bucket" translatable="false">test-korea-ime.appspot.com</string>
+    <string name="project_id" translatable="false">test-korea-ime</string>
 </resources>

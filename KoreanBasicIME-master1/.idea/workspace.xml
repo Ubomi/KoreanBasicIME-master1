@@ -3208,8 +3208,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="67" column="58" lean-forward="true" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="58" />
+            <state relative-caret-position="665">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -3220,20 +3220,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/SoftKeyboard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="421" column="35" lean-forward="true" selection-start-line="421" selection-start-column="35" selection-end-line="421" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/sensorManage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="931">
-              <caret line="59" column="61" selection-start-line="59" selection-start-column="61" selection-end-line="59" selection-end-column="61" />
+            <state relative-caret-position="16872">
+              <caret line="936" selection-start-line="936" selection-end-line="936" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -3253,27 +3241,59 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="380">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/userInput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/halbae87/koreanbasicime/BuildConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/DatabaseManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1577">
-              <caret line="101" column="30" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="30" />
+            <state relative-caret-position="19">
+              <caret line="133" column="17" selection-start-line="133" selection-start-column="17" selection-end-line="133" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -3304,6 +3324,7 @@
       <find>mSymbolsShiftedKeyboard</find>
       <find>mSymbolsKeyboard</find>
       <find>commitTyped</find>
+      <find>databasemanager</find>
     </findStrings>
   </component>
   <component name="GenerateSignedApkSettings">
@@ -3321,7 +3342,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/MAINACTIVITY.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/touchDB.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/userInput.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/google-services.json" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/database.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/FirebasePost.java" />
@@ -3332,12 +3352,13 @@
         <option value="$PROJECT_DIR$/app/src/main/res/xml/symbols_shift_kor.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/xml/korean.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/sensorManage.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/DatabaseManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/KoreanAutomata.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/SoftKeyboard.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/SoftKeyboard.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/DatabaseManager.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
@@ -3352,22 +3373,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
+      <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
-              <item name="KoreanBasicIME-master1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KoreanBasicIME-master1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="KoreanBasicIME-master1" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
             </path>
             <path>
-              <item name="KoreanBasicIME-master1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KoreanBasicIME-master1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="KoreanBasicIME-master1" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="values" type="1f31426a:PackageElementNode" />
             </path>
             <path>
-              <item name="KoreanBasicIME-master1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KoreanBasicIME-master1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="KoreanBasicIME-master1" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="xml" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -3383,17 +3404,23 @@
             <path>
               <item name="KoreanBasicIME-master1" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
-            </path>
-            <path>
-              <item name="KoreanBasicIME-master1" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
             </path>
             <path>
               <item name="KoreanBasicIME-master1" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="koreanbasicime" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KoreanBasicIME-master1" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="generatedJava" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="KoreanBasicIME-master1" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="generatedJava" type="edd41e36:AndroidSourceTypeNode" />
               <item name="koreanbasicime" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
             <path>
@@ -3433,22 +3460,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
+      <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="KoreanBasicIME-master1" type="58d84e3e:PackageViewProjectNode" />
-              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="KoreanBasicIME-master1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KoreanBasicIME-master1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="KoreanBasicIME-master1" type="58d84e3e:PackageViewProjectNode" />
-              <item name="app" type="616d4139:PackageViewModuleNode" />
-              <item name="values" type="1f31426a:PackageElementNode" />
+              <item name="KoreanBasicIME-master1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KoreanBasicIME-master1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="KoreanBasicIME-master1" type="58d84e3e:PackageViewProjectNode" />
-              <item name="app" type="616d4139:PackageViewModuleNode" />
-              <item name="xml" type="1f31426a:PackageElementNode" />
+              <item name="KoreanBasicIME-master1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KoreanBasicIME-master1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -3463,7 +3490,7 @@
     <property name="ExportApk.SignV2" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="8ae2b30" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ref_keyboard/KoreanBasicIME-master/KoreanBasicIME-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../KoreanBasicIME-master1/KoreanBasicIME-master1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -3586,7 +3613,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17910448" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.17910448" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -3597,13 +3624,13 @@
       <window_info anchor="bottom" id="Run" order="0" sideWeight="0.5954158" weight="0.7691466" />
       <window_info anchor="bottom" id="TODO" order="1" sideWeight="0.49840087" weight="0.32890365" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49307036" weight="0.32889733" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.17697228" side_tool="true" visible="true" weight="0.19201522" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Build" order="5" sideWeight="0.48667377" weight="0.22338404" />
-      <window_info anchor="bottom" id="Debug" order="6" />
-      <window_info anchor="bottom" id="Android Profiler" order="7" sideWeight="0.49840087" weight="0.32822758" />
-      <window_info anchor="bottom" id="Logcat" order="8" sideWeight="0.82302773" visible="true" weight="0.19201522" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49573562" weight="0.32822758" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.51599145" side_tool="true" visible="true" weight="0.22338404" />
+      <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.49946696" weight="0.3298479" />
+      <window_info anchor="bottom" id="Build" order="5" sideWeight="0.48400852" visible="true" weight="0.22338404" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49946696" weight="0.3298479" />
+      <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" sideWeight="0.4978678" weight="0.32794678" />
+      <window_info anchor="bottom" id="Logcat" order="8" sideWeight="0.8208955" weight="0.30703422" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49520257" weight="0.32794678" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
@@ -3647,9 +3674,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/DatabaseManager.java</url>
           <line>78</line>
-          <properties class="com.halbae87.koreanbasicime.DatabaseManager" method="toMap">
-            <option name="EMULATED" value="true" />
-          </properties>
+          <properties class="com.halbae87.koreanbasicime.DatabaseManager" method="toMap" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -3664,19 +3689,24 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/DatabaseManager.java</url>
+          <line>162</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/SoftKeyboard.java</url>
+          <line>931</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/import-summary.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/halbae87/koreanbasicime/BuildConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/touchDB.java" />
     <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-13/android.jar!/android/inputmethodservice/KeyboardView.class" />
@@ -3818,29 +3848,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/KoreanAutomata.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="491">
           <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/userInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3881,30 +3892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/LatinKeyboardView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/DatabaseManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1577">
-          <caret line="101" column="30" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/os/Parcel.class">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -3914,31 +3901,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/SoftKeyboard.java">
+    <entry file="file://$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-all/97z1ksx6lirer3kbvdnh7jtjg/gradle-5.1.1/src/core-api/org/gradle/api/artifacts/dsl/DependencyHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="421" column="35" lean-forward="true" selection-start-line="421" selection-start-column="35" selection-end-line="421" selection-end-column="35" />
+        <state>
+          <folding>
+            <element signature="e#0#17833#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/inputmethodservice/KeyboardView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="156" column="13" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/SoftKeyboard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="67" column="58" lean-forward="true" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="58" />
+        <state relative-caret-position="16872">
+          <caret line="936" selection-start-line="936" selection-end-line="936" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/LatinKeyboardView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/userInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/halbae87/koreanbasicime/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="361">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/halbae87/koreanbasicime/DatabaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="133" column="17" selection-start-line="133" selection-start-column="17" selection-end-line="133" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

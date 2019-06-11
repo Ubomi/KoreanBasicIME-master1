@@ -457,7 +457,7 @@ public class SoftKeyboard extends InputMethodService
                     Log.d("HandDown","action down_________________________________________"); // 키보드에 손가락이 닿았다.
 
                     Log.d("userXInput", String.valueOf((int)touchedX)); //키보드 x 좌표 출력
-                    Log.d("userYInput",String.valueOf((int)touchedY)); // 키보드 y 좌표 출력
+                    Log.d("userYInput", String.valueOf((int)touchedY)); // 키보드 y 좌표 출력
 
                     axis_X = ((sensorManage) sContext).axis_X;
                     axis_Y = ((sensorManage) sContext).axis_Y;

@@ -101,7 +101,7 @@ public class DatabaseManager {
 
     public static void writeNewDB(boolean add, int codenum, String keyState){
 
-        mDatabase=FirebaseDatabase.getInstance().getReference();
+        mDatabase = FirebaseDatabase.getInstance().getReference();
         Map<String,Object> childUpdates = new HashMap<>();
         Map<String,Object> keyboardInfo = new HashMap<>();
 
@@ -133,19 +133,6 @@ public class DatabaseManager {
 
         childUpdates.put("/"+sensorManage.User +"/"+"keyboardInfo", prePostValues);
         childUpdates.put("/"+sensorManage.User+"/"+"/keyboardInput/"+S_index,postValues);
-
-        //유저가 존재하는지 안존재하는지 확인
-        /*mDatabase.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                Object user = dataSnapshot.getValue();
-                Log.v("User", String.valueOf(user));
-            }
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-
-            }
-        });*/
 
         /*DatabaseReference Reference = mDatabase.child(sensorManage.User).child("keyboardInput");
         if(index == 0) {
