@@ -9,6 +9,7 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Gravity;
@@ -18,6 +19,11 @@ import android.widget.EditText;
 import android.widget.Toast;
 import android.telephony.TelephonyManager;
 import java.util.UUID;
+import android.content.pm.PackageManager;
+import android.support.v4.content.ContextCompat;
+import android.support.v4.app.ActivityCompat;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 
 public class MainActivity extends Activity {
 
@@ -36,18 +42,8 @@ public class MainActivity extends Activity {
     Toast mToast =null;
     String mToaststr;
 
-    private String GetDevicesUUID(Context mContext) {
-        final TelephonyManager tm = (TelephonyManager) mContext.getSystemService(Context.TELEPHONY_SERVICE);
-        final String tmDevice, tmSerial, androidId;
-        tmDevice = "" + tm.getDeviceId();
-        tmSerial = "" + tm.getSimSerialNumber();
-        androidId = "" + android.provider.Settings.Secure.getString(getContentResolver(), android.provider.Settings.Secure.ANDROID_ID);
-        UUID deviceUuid = new UUID(androidId.hashCode(), ((long)tmDevice.hashCode() << 32) | tmSerial.hashCode());
-        String deviceId = deviceUuid.toString();
-        return deviceId;
-    }
-    
     public void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity);
 
@@ -70,15 +66,15 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
 
                 User = String.valueOf(editText.getText());
+                User = Settings.Secure.getString(getApplicationContext().getContentResolver(), Settings.Secure.ANDROID_ID); // get android_id which indicates unique value of android device
                 mToast = Toast.makeText(MainActivity.this,""+User +"님, 반갑습니다. \n앱을 꼭! 종료하신 후, 키보드를 사용해주세요 :-)",Toast.LENGTH_LONG);
                 mToast.setGravity(Gravity.CENTER | Gravity.CENTER,0,500);
                 mToast.show();
 
-                User = GetDevicesUUID(MainActivity.this); // get UUID which indicates unique value of android device
                 sensor_intent.putExtra("User",User);
                 startService(sort_keyboard_intent); // start private keyboatd method
                 startActivity(sensor_intent);
-                //finish();
+                finish();
             }
 
             

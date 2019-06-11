@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:2:1-56:12
+ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:2:1-54:12
 MERGED from [com.google.firebase:firebase-core:16.0.8] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\218d198df4383c15fa2cbdaa93d9d422\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\433fbc0f9b7cf22205fd6f7707b51485\AndroidManifest.xml:15:1-36:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\b82f0f020d5fde65f350b41e4bc22ddb\AndroidManifest.xml:17:1-22:12
@@ -30,8 +30,8 @@ MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\kinux98\.gradl
 MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\1e4a85f4db6d25c2f421595a30294255\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\7f1ebbd4e432eb331bec15bb393a1282\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\157c245a81417a5a4c238919c316dfd7\AndroidManifest.xml:2:1-7:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\4aefb8071c7e0d68daf0ac7a1aa961aa\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\5e0f90805c79d522920d35acd3e031ab\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\4aefb8071c7e0d68daf0ac7a1aa961aa\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:viewpager:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\0d009b9f25c0cb89ebdb1f407b3f3e39\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\668222c20f0de28e22929350c279e313\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\dfcf5fef05423dfc702937cd0a296a48\AndroidManifest.xml:17:1-22:12
@@ -41,20 +41,20 @@ MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\kinux98\.gr
 MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\edf1bf704395fff71dd0701a557a0bf6\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\29e1cbb1a6efeb2e2645de4ec7808891\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\5d271099f2dec745d4081715fbae7ff2\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\85ce213835aadbe399095c7f7d452e60\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\bc6cf304d92e30c423cac1acce5d7c42\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\612fcea3a30aaf7e86acb64442866d37\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\1b39dd0084966007c0c8f6434dae70d2\AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\2f0c097d40a151c58b270cf10927ed6b\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\80f588351ade46dcbecae3a29d08c446\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\85ce213835aadbe399095c7f7d452e60\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\bc6cf304d92e30c423cac1acce5d7c42\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\612fcea3a30aaf7e86acb64442866d37\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\5ea927ccd99b761c9a39b9fe504bc996\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\1020da09bacf3e7b6d7ee4a83363496e\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\5fb252b601f6f1fa90497d385dac84d4\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\404b5e964b4de5ff43d83adb3a896172\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\ca066c25acdd52855e0454e9c76574f6\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:2:1-54:12
 	package
 		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml
@@ -85,18 +85,14 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\67338b0821e37a6c3f4497bc5344c880\AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:7:22-64
-uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:8:5-74
-	android:name
-		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:8:22-72
 uses-feature#android.hardware.touchscreen
-ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:16:5-18:36
+ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:14:5-16:36
 	android:required
-		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:18:9-33
+		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:16:9-33
 	android:name
-		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:17:9-52
+		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:15:9-52
 application
-ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:20:5-54:19
+ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:18:5-52:19
 MERGED from [com.google.firebase:firebase-core:16.0.8] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\218d198df4383c15fa2cbdaa93d9d422\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:16.0.8] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\218d198df4383c15fa2cbdaa93d9d422\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\433fbc0f9b7cf22205fd6f7707b51485\AndroidManifest.xml:28:5-34:19
@@ -146,69 +142,69 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kinux98\.g
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\5d271099f2dec745d4081715fbae7ff2\AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:23:9-41
+		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:21:9-41
 	android:icon
-		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:22:9-45
+		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:20:9-45
 	android:allowBackup
-		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:21:9-36
+		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:19:9-36
 activity#com.halbae87.koreanbasicime.MainActivity
-ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:24:9-32:20
+ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:22:9-30:20
 	android:theme
-		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:26:13-62
+		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:24:13-62
 	android:name
-		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:25:13-41
+		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:23:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:28:27-74
 activity#com.halbae87.koreanbasicime.sensorManage
-ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:33:9-34:85
+ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:31:9-32:85
 	android:theme
-		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:34:13-83
+		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:32:13-83
 	android:name
-		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:33:19-47
+		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:31:19-47
 service#com.halbae87.koreanbasicime.SoftKeyboard
-ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:36:9-53:19
+ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:34:9-51:19
 	android:enabled
-		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:38:13-35
+		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:36:13-35
 	android:permission
-		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:39:13-70
+		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:37:13-70
 	android:name
-		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:37:13-41
+		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:35:13-41
 intent-filter#action:name:android.intent.MAIN+action:name:android.intent.VIEW+action:name:android.view.InputMethod+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:40:13-48:29
+ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:38:13-46:29
 action#android.view.InputMethod
-ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:41:17-67
+ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:39:17-67
 	android:name
-		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:41:25-64
+		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:39:25-64
 action#android.intent.MAIN
-ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:42:17-62
+ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:40:17-62
 	android:name
-		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:42:25-59
+		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:40:25-59
 action#android.intent.VIEW
-ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:43:17-62
+ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:41:17-62
 	android:name
-		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:43:25-59
+		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:41:25-59
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:45:17-76
+ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:43:17-76
 	android:name
-		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:45:27-73
+		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:43:27-73
 category#android.intent.category.BROWSABLE
-ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:46:17-78
+ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:44:17-78
 	android:name
-		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:46:27-75
+		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:44:27-75
 meta-data#android.view.im
-ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:50:13-52:50
+ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:48:13-50:50
 	android:resource
-		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:52:17-47
+		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:50:17-47
 	android:name
-		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:51:17-47
+		ADDED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml:49:17-47
 uses-sdk
 INJECTED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\kinux98\Desktop\project\KoreanBasicIME-master1\KoreanBasicIME-master1\app\src\main\AndroidManifest.xml
@@ -265,10 +261,10 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\ki
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\7f1ebbd4e432eb331bec15bb393a1282\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\157c245a81417a5a4c238919c316dfd7\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\157c245a81417a5a4c238919c316dfd7\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\4aefb8071c7e0d68daf0ac7a1aa961aa\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\4aefb8071c7e0d68daf0ac7a1aa961aa\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\5e0f90805c79d522920d35acd3e031ab\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\5e0f90805c79d522920d35acd3e031ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\4aefb8071c7e0d68daf0ac7a1aa961aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\4aefb8071c7e0d68daf0ac7a1aa961aa\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:viewpager:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\0d009b9f25c0cb89ebdb1f407b3f3e39\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:viewpager:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\0d009b9f25c0cb89ebdb1f407b3f3e39\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\668222c20f0de28e22929350c279e313\AndroidManifest.xml:20:5-44
@@ -287,18 +283,18 @@ MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\kinux98\.
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\29e1cbb1a6efeb2e2645de4ec7808891\AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\5d271099f2dec745d4081715fbae7ff2\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\5d271099f2dec745d4081715fbae7ff2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\85ce213835aadbe399095c7f7d452e60\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\85ce213835aadbe399095c7f7d452e60\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\bc6cf304d92e30c423cac1acce5d7c42\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\bc6cf304d92e30c423cac1acce5d7c42\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\612fcea3a30aaf7e86acb64442866d37\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\612fcea3a30aaf7e86acb64442866d37\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\1b39dd0084966007c0c8f6434dae70d2\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\1b39dd0084966007c0c8f6434dae70d2\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\2f0c097d40a151c58b270cf10927ed6b\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\2f0c097d40a151c58b270cf10927ed6b\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\80f588351ade46dcbecae3a29d08c446\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\80f588351ade46dcbecae3a29d08c446\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\85ce213835aadbe399095c7f7d452e60\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\85ce213835aadbe399095c7f7d452e60\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\bc6cf304d92e30c423cac1acce5d7c42\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\bc6cf304d92e30c423cac1acce5d7c42\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\612fcea3a30aaf7e86acb64442866d37\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\612fcea3a30aaf7e86acb64442866d37\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\5ea927ccd99b761c9a39b9fe504bc996\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\5ea927ccd99b761c9a39b9fe504bc996\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\kinux98\.gradle\caches\transforms-2\files-2.1\1020da09bacf3e7b6d7ee4a83363496e\AndroidManifest.xml:20:5-44

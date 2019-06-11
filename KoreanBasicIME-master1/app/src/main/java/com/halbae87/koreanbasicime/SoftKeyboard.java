@@ -47,6 +47,7 @@ import android.widget.Toast;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import static com.halbae87.koreanbasicime.sensorManage.User;
 import static com.halbae87.koreanbasicime.sensorManage.sContext;
 
 
@@ -443,7 +444,7 @@ public class SoftKeyboard extends InputMethodService
                     touchedY = (int)motionEvent.getY();
 
                     //Toast 메세지 띄우기
-                    mToaststr="X =" + touchedX + " Y =" +touchedY;
+                    mToaststr="X =" + touchedX + " Y =" +touchedY + "User = " + User;
                     toastShort();
                     // Time 설정하기
                     now = System.currentTimeMillis();

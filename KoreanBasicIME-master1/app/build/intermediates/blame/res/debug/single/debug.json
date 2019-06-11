@@ -72,6 +72,10 @@
         "source": "C:\\Users\\kinux98\\.gradle\\caches\\transforms-2\\files-2.1\\b82f0f020d5fde65f350b41e4bc22ddb\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
+        "merged": "C:\\Users\\kinux98\\Desktop\\project\\KoreanBasicIME-master1\\KoreanBasicIME-master1\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\kinux98\\.gradle\\caches\\transforms-2\\files-2.1\\5d271099f2dec745d4081715fbae7ff2\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
         "merged": "C:\\Users\\kinux98\\Desktop\\project\\KoreanBasicIME-master1\\KoreanBasicIME-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
         "source": "C:\\Users\\kinux98\\.gradle\\caches\\transforms-2\\files-2.1\\9743a9a161f5a49c711bfdde22587970\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png"
     },
