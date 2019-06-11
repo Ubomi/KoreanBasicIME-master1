@@ -1,7 +1,7 @@
 #Internal package file, do not edit.
-#Fri May 17 17:17:30 KST 2019
+#Tue Jun 11 11:11:54 KST 2019
 0.baseType=DIRECTORY
-0.base=C\:\\Users\\dbqha\\Downloads\\Git\\KoreanBasicIME-master1\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+0.base=C\:\\Users\\kinux98\\Desktop\\project\\KoreanBasicIME-master1\\KoreanBasicIME-master1\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 0.path=classes.dex
 0.set=DEX
 count=1

@@ -24,7 +24,6 @@ import java.util.Map;
 파이어베이스에 데이터를 넣기위한 클래스
 이미 동일한 유저가 존재하는지 안하는지,
 존재한다면 마지막 인덱스를 가져와서 새롭게 indexing 할 수 있도록 수정 필요
-
  */
 public class DatabaseManager {
     public static int touchedX;
@@ -55,6 +54,7 @@ public class DatabaseManager {
     public DatabaseManager(){
 
     }
+
     public DatabaseManager(int index, int touchedX, int touchedY, long touchTime, float touchPressure, float axis_X, float axis_Y, float axis_Z, float touchSize, int codenum, String formatDate, String keyState,boolean Typo){
         this.index = index;
         this.touchedX = touchedX;
@@ -103,14 +103,13 @@ public class DatabaseManager {
 
         mDatabase=FirebaseDatabase.getInstance().getReference();
         Map<String,Object> childUpdates = new HashMap<>();
-
         Map<String,Object> keyboardInfo = new HashMap<>();
 
         keyboardInfo.put("Height",height);
         keyboardInfo.put("Width",width);
 
         Map<String, Object> postValues = null;
-        Map<String, Object>prePostValues = null;
+        Map<String, Object> prePostValues = null;
 
         touchedX = SoftKeyboard.touchedX;
         touchedY = SoftKeyboard.touchedY;

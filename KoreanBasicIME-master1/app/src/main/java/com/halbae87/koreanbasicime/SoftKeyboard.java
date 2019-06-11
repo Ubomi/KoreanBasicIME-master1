@@ -473,10 +473,10 @@ public class SoftKeyboard extends InputMethodService
                 }else if (motionEvent.getAction() == motionEvent.ACTION_UP){
                     Log.d("HandOff","action up");
 
-                    touchTime = motionEvent.getEventTime()-motionEvent.getDownTime(); //몇시간동안 터치를 했는가
+                    touchTime = motionEvent.getEventTime() - motionEvent.getDownTime(); //몇시간동안 터치를 했는가
                     Log.d("touching Time is", String.valueOf(touchTime));
 
-                    touchSize=motionEvent.getSize(); // 키보드 터치 면적
+                    touchSize = motionEvent.getSize(); // 키보드 터치 면적
                     Log.d("Touching size is", String.valueOf(touchSize));
 
                     ((sensorManage) sContext).onPause();
@@ -928,11 +928,14 @@ public class SoftKeyboard extends InputMethodService
 
         Log.v("단말기 사이즈 ","width : " + width +" height : "+ height);
         // DATA 입력
-        if(mInputView.getKeyboard()== mSymbolsKeyboard || mInputView.getKeyboard() == mSymbolsShiftedKeyboard || mInputView.getKeyboard() == mSymbolsShiftedKeyboard_kor || mInputView.getKeyboard() == mSymbolsKeyboard_kor){
+        if(mInputView.getKeyboard() == mSymbolsKeyboard || mInputView.getKeyboard() == mSymbolsShiftedKeyboard || 
+           mInputView.getKeyboard() == mSymbolsShiftedKeyboard_kor || mInputView.getKeyboard() == mSymbolsKeyboard_kor) {
             DatabaseManager.writeNewDB(true, primaryCode,"Sym");
-        }else if(kauto.IsHangul((char)primaryCode)==false&&kauto.IsKoreanMode()==false){
+
+        } else if(kauto.IsHangul((char)primaryCode) == false&&kauto.IsKoreanMode()==false) {
             DatabaseManager.writeNewDB(true, primaryCode,"Eng");
-        }else if(mInputView.getKeyboard()==mKoreanShiftedKeyboard || mInputView.getKeyboard()==mKoreanKeyboard)
+
+        } else if(mInputView.getKeyboard() == mKoreanShiftedKeyboard || mInputView.getKeyboard() == mKoreanKeyboard)
             DatabaseManager.writeNewDB(true, primaryCode,"Kor");
     }
 
