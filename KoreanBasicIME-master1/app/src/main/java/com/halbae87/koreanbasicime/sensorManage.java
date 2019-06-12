@@ -7,10 +7,7 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Gravity;
-import android.widget.Toast;
 
 
 public class sensorManage extends Activity implements SensorEventListener {
@@ -46,8 +43,6 @@ public class sensorManage extends Activity implements SensorEventListener {
         }
         sm = (SensorManager) getSystemService(sContext.SENSOR_SERVICE);
         sensor = sm.getDefaultSensor(Sensor.TYPE_ORIENTATION);
-        finish();
-
     }
     public void onResume() {
         super.onResume();

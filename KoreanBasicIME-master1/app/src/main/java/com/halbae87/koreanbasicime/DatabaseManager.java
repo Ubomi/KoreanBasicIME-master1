@@ -125,7 +125,6 @@ public class DatabaseManager {
         if(add){
             DatabaseManager post = new DatabaseManager(index,touchedX,touchedY,touchTime,touchPressure,axis_X,axis_Y,axis_Z,touchSize,codenum,formatDate,keyState,Typo);
             postValues = post.toMap();
-
             prePostValues = keyboardInfo;
         }
 
@@ -161,6 +160,7 @@ public class DatabaseManager {
         }*/
         index +=1;
         mDatabase.updateChildren(childUpdates);
+        Log.v("DB", "Data has been sent to DB");
 
     }
 
