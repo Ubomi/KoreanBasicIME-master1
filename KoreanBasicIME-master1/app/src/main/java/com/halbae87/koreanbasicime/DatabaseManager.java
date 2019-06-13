@@ -1,23 +1,17 @@
 package com.halbae87.koreanbasicime;
 
 import android.content.Context;
-import android.content.SharedPreferences;
-import android.provider.ContactsContract;
-import android.support.annotation.NonNull;
 import android.util.Log;
 
-import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.Exclude;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.google.firebase.database.core.Path;
-import com.google.firebase.database.snapshot.Index;
 
-import java.lang.ref.Reference;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 
 /*
@@ -40,20 +34,15 @@ public class DatabaseManager {
     public static boolean Typo = true;
 
     public static int index =0;
-    public static Context dContext;
 
     public static String S_index;
 
     public static int width = SoftKeyboard.width;
     public static int height = SoftKeyboard.height;
 
-    static Object childMap;
-
     public static DatabaseReference mDatabase;
+    public static Context sContext;
 
-    public DatabaseManager(){
-
-    }
 
     public DatabaseManager(int index, int touchedX, int touchedY, long touchTime, float touchPressure, float axis_X, float axis_Y, float axis_Z, float touchSize, int codenum, String formatDate, String keyState,boolean Typo){
         this.index = index;
@@ -70,16 +59,10 @@ public class DatabaseManager {
         this.keyState = keyState;
         this.Typo = Typo;
     }
-    public DatabaseManager(int height, int width){
-        this.height = height;
-        this.width = width;
-
-    }
 
     public Map<String,Object> toMap(){
 
         HashMap<String,Object> keyInput = new HashMap<>();
-
 
         keyInput.put("index",index);
         keyInput.put("touchedX",touchedX);
@@ -130,38 +113,38 @@ public class DatabaseManager {
 
         S_index = String.valueOf(index);
 
-        childUpdates.put("/"+sensorManage.User +"/"+"keyboardInfo", prePostValues);
-        childUpdates.put("/"+sensorManage.User+"/"+"/keyboardInput/"+S_index,postValues);
+        childUpdates.put("/"+SoftKeyboard.User +"/"+"keyboardInfo", prePostValues);
+        childUpdates.put("/"+SoftKeyboard.User+"/"+"/keyboardInput/"+S_index,postValues);
 
-        /*DatabaseReference Reference = mDatabase.child(sensorManage.User).child("keyboardInput");
-        if(index == 0) {
-            index = 1;
-        } else{
-            // index 번호가 1 이상부터 시작할 경우, 그전까지 쓰인 index를 읽어와서 다시 indexing
+        //DatabaseReference Reference = mDatabase.child(SoftKeyboard.User).child("keyboardInput");
+        DatabaseReference Reference = FirebaseDatabase.getInstance().getReference();
+        DatabaseReference Reference_tmp = Reference.getRoot().child(SoftKeyboard.User).child("keyboardInput");
 
-            Reference.limitToLast(1).addValueEventListener(new ValueEventListener() {
-                @Override
-                public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+        Reference_tmp.limitToLast(1).addValueEventListener(new ValueEventListener() {
+            @Override public void onDataChange(@android.support.annotation.NonNull DataSnapshot dataSnapshot) {
+                Object childMap = dataSnapshot.getValue();
+                if(childMap instanceof ArrayList) {
+                    ArrayList childMap_list = (ArrayList) childMap;
+                    while(childMap_list.remove(null));
+                    HashMap grandchildMap_list = (HashMap) childMap_list.get(0);
+                    index = (int) (long)grandchildMap_list.get("index") + 1;
+                    Log.v("datasnapshot", childMap_list.toString());
+                    Log.v("Grandchild_idx", grandchildMap_list.get("index").toString());
 
-                    childMap = dataSnapshot.child(String.valueOf(0)).getValue();
+                } else if(childMap instanceof HashMap) {
                     Map map = (Map) childMap;
-                    int currentIndex= (int) map.get("index");
-
-                    Log.v("current Index", String.valueOf(currentIndex));
-                    index = Integer.parseInt(String.valueOf(currentIndex));
-                    index +=1;
+                    Iterator it = map.keySet().iterator();
+                    String key = (String) it.next();
+                    Map extracted_map = (Map) map.get(key);
+                    index = (int) (long) extracted_map.get("index") + 1;
                 }
+            }
+            @Override
+            public void onCancelled(@android.support.annotation.NonNull DatabaseError databaseError) {
+            }
+        });
 
-                @Override
-                public void onCancelled(@NonNull DatabaseError databaseError) {
-
-                }
-            });
-        }*/
-        index +=1;
         mDatabase.updateChildren(childUpdates);
-        Log.v("DB", "Data has been sent to DB");
-
     }
 
 }

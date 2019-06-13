@@ -42,9 +42,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.halbae87.koreanbasicime.sensorManage"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
 
         <service
             android:name="com.halbae87.koreanbasicime.SoftKeyboard"
