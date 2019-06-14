@@ -15,14 +15,6 @@
       },
       "oauth_client": [
         {
-          "client_id": "779633464039-q70t88auh5cosjdbicd15t6v6p7e2tp6.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.halbae87.koreanbasicime",
-            "certificate_hash": "2abcd02c6b79941ccf2e7291b3621669e9c851d5"
-          }
-        },
-        {
           "client_id": "779633464039-fn392ldrbhcalirqb14ho7lm6iroj9rk.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
