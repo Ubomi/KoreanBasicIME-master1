@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\kinux98\\Desktop\\project\\KoreanBasicIME-master1\\KoreanBasicIME-master1\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "C:\\Users\\dbqha\\Downloads\\Git\\KoreanBasicIME-master1\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kinux98\\.gradle\\caches\\transforms-2\\files-2.1\\b82f0f020d5fde65f350b41e4bc22ddb\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\dbqha\\.gradle\\caches\\transforms-2\\files-2.1\\d7bb98da9cc76947bbe503a2aea8ae3a\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

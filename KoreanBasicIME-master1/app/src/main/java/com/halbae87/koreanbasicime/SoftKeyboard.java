@@ -21,6 +21,7 @@
 package com.halbae87.koreanbasicime;
 
 import android.annotation.SuppressLint;
+import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.hardware.Sensor;
@@ -30,9 +31,10 @@ import android.hardware.SensorManager;
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
-import android.provider.Settings;
+import android.provider.ContactsContract;
 import android.text.method.MetaKeyKeyListener;
 import android.util.Log;
+import android.view.Display;
 import android.view.Gravity;
 import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
@@ -44,6 +46,9 @@ import android.widget.Toast;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import static com.halbae87.koreanbasicime.sensorManage.sContext;
+
 
 /*
   just for reference
@@ -70,9 +75,11 @@ import java.util.Date;
 
 @SuppressLint("InlinedApi")
 @SuppressWarnings("unused")
-public class SoftKeyboard extends InputMethodService implements KeyboardView.OnKeyboardActionListener {
+public class SoftKeyboard extends InputMethodService
+        implements KeyboardView.OnKeyboardActionListener {
     static final boolean DEBUG = false;
-    /* test functions about SENSOR */
+
+
     @Override
     public Object getSystemService(String name) {
         return super.getSystemService(name);
@@ -145,13 +152,6 @@ public class SoftKeyboard extends InputMethodService implements KeyboardView.OnK
     String mToaststr;
 
     static int codenum;
-
-
-    /* for sensor in service */
-    public static String User;
-    public static Context sensor_context;
-    public Sensor sensor;
-    public static android.hardware.SensorManager sensor_manager;
     public static float axis_X;
     public static float axis_Y;
     public static float axis_Z;
@@ -161,47 +161,16 @@ public class SoftKeyboard extends InputMethodService implements KeyboardView.OnK
     public static int width;
     public static int height;
 
-    public SensorEventListener listen;
+    @Override public void  onCreate() {
 
-    @Override
-    public void  onCreate() {
         super.onCreate();
         mWordSeparators = getResources().getString(R.string.word_separators);
+
+        // enable for debug purpose only. otherwise, it will stuck here.
+        // android.os.Debug.waitForDebugger();
+
     }
-
-    @Override
-    public int onStartCommand(Intent intent, int flags, int startId) {
-        listen = new SensorListen();
-        sensor_manager = (SensorManager) getApplicationContext().getSystemService(SENSOR_SERVICE);
-        sensor = sensor_manager.getDefaultSensor(Sensor.TYPE_ORIENTATION);
-        sensor_manager.registerListener(listen, sensor, sensor_manager.SENSOR_DELAY_FASTEST);
-        return START_REDELIVER_INTENT;
-    }
-
-    @Override
-    public void onDestroy() {
-        // TODO Auto-generated method stub
-        sensor_manager.unregisterListener(listen);
-        super.onDestroy();
-    }
-
-    public class SensorListen implements SensorEventListener{
-        @Override
-        public void onSensorChanged(SensorEvent event) {
-            // TODO Auto-generated method stub
-            if (event.sensor.getType() == Sensor.TYPE_ORIENTATION) {
-                axis_X = event.values[0];
-                axis_Y = event.values[1];
-                axis_Z = event.values[2];
-            }
-        }
-
-        @Override
-        public void onAccuracyChanged(Sensor sensor, int accuracy) {
-            // TODO Auto-generated method stub
-        }
-    }
-
+    
     /**
      * This is the point where you can do all of your UI initialization.  It
      * is called after creation and any configuration change.
@@ -237,7 +206,8 @@ public class SoftKeyboard extends InputMethodService implements KeyboardView.OnK
     @Override public View onCreateInputView() {
 
     	// Log.v(TAG,"onCreateInputView ---- enter");
-        mInputView = (KeyboardView) getLayoutInflater().inflate(R.layout.input, null);
+        mInputView = (KeyboardView) getLayoutInflater().inflate(
+                R.layout.input, null);
         mInputView.setOnKeyboardActionListener(this);
         mInputView.setKeyboard(mQwertyKeyboard);
     	// Log.v(TAG,"onCreateInputView ---- leave");
@@ -449,7 +419,6 @@ public class SoftKeyboard extends InputMethodService implements KeyboardView.OnK
 
 */
         //Start sensor manage class
-        /*
         Intent intent = new Intent(this,sensorManage.class);
         PendingIntent p = PendingIntent.getActivity(this,0,intent,0);
         try{
@@ -457,25 +426,25 @@ public class SoftKeyboard extends InputMethodService implements KeyboardView.OnK
         }catch (PendingIntent.CanceledException e){
             e.printStackTrace();
         }
-        */
-
         //intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         //sContext.startActivity(intent);
 
         mInputView.setOnTouchListener(new View.OnTouchListener() {
-
             @Override
+
             public boolean onTouch(View view, MotionEvent motionEvent) {
 
                 if(motionEvent.getAction() == motionEvent.ACTION_DOWN){
+
+                    ((sensorManage) sContext).onResume();
 
                     //X 좌표값 Y좌표값 입력받기
                     touchedX = (int)motionEvent.getX();
                     touchedY = (int)motionEvent.getY();
 
                     //Toast 메세지 띄우기
-                    //mToaststr="X =" + touchedX + " Y =" +touchedY + "User = " + User;
-                    //toastShort();
+                    mToaststr="X =" + touchedX + " Y =" +touchedY;
+                    toastShort();
                     // Time 설정하기
                     now = System.currentTimeMillis();
                     Date date = new Date(now);
@@ -484,10 +453,14 @@ public class SoftKeyboard extends InputMethodService implements KeyboardView.OnK
 
                     // 키보드 누르는 압력
                     touchPressure = motionEvent.getPressure();
-                    /*Log.d("HandDown","action down_________________________________________"); // 키보드에 손가락이 닿았다.
+                    Log.d("HandDown","action down_________________________________________"); // 키보드에 손가락이 닿았다.
 
                     Log.d("userXInput", String.valueOf((int)touchedX)); //키보드 x 좌표 출력
-                    Log.d("userYInput", String.valueOf((int)touchedY)); // 키보드 y 좌표 출력
+                    Log.d("userYInput",String.valueOf((int)touchedY)); // 키보드 y 좌표 출력
+
+                    axis_X = ((sensorManage) sContext).axis_X;
+                    axis_Y = ((sensorManage) sContext).axis_Y;
+                    axis_Z = ((sensorManage) sContext).axis_Z;
 
                     Log.d("기울기X", String.valueOf(axis_X));
                     Log.d("기울기Y", String.valueOf(axis_Y));
@@ -495,16 +468,19 @@ public class SoftKeyboard extends InputMethodService implements KeyboardView.OnK
                     Log.d("현재 시각",formatDate);
                     // 입력받기 잘 안되는것 같지만 일단 박사님께 여쭤보쟈
 
-                    Log.d("Pressure", String.valueOf(touchPressure));*/
+                    Log.d("Pressure", String.valueOf(touchPressure));
 
                 }else if (motionEvent.getAction() == motionEvent.ACTION_UP){
-                    //Log.d("HandOff","action up");
+                    Log.d("HandOff","action up");
 
-                    touchTime = motionEvent.getEventTime() - motionEvent.getDownTime(); //몇시간동안 터치를 했는가
-                    //Log.d("touching Time is", String.valueOf(touchTime));
+                    touchTime = motionEvent.getEventTime()-motionEvent.getDownTime(); //몇시간동안 터치를 했는가
+                    Log.d("touching Time is", String.valueOf(touchTime));
 
-                    touchSize = motionEvent.getSize(); // 키보드 터치 면적
-                    //Log.d("Touching size is", String.valueOf(touchSize));
+                    touchSize=motionEvent.getSize(); // 키보드 터치 면적
+                    Log.d("Touching size is", String.valueOf(touchSize));
+
+                    ((sensorManage) sContext).onPause();
+
                 }
                 return false;
             }
@@ -557,8 +533,24 @@ public class SoftKeyboard extends InputMethodService implements KeyboardView.OnK
      * to show the completions ourself, since the editor can not be seen
      * in that situation.
      */
-
-
+    /* do nothing
+    @Override public void onDisplayCompletions(CompletionInfo[] completions) {
+        if (mCompletionOn) {
+            mCompletions = completions;
+            if (completions == null) {
+                setSuggestions(null, false, false);
+                return;
+            }
+            
+            List<String> stringList = new ArrayList<String>();
+            for (int i=0; i<(completions != null ? completions.length : 0); i++) {
+                CompletionInfo ci = completions[i];
+                if (ci != null) stringList.add(ci.getText().toString());
+            }
+            setSuggestions(stringList, true, true);
+        }
+    }
+    */
     /**
      * This translates incoming hard key events in to edit operations on an
      * InputConnection.  It is only needed when using the
@@ -832,11 +824,7 @@ public class SoftKeyboard extends InputMethodService implements KeyboardView.OnK
     // Implementation of KeyboardViewListener
 
     public void onKey(int primaryCode, int[] keyCodes) {
-        if(User == null) {
-            // save user id to device.
-            User = Settings.Secure.getString(getApplicationContext().getContentResolver(), Settings.Secure.ANDROID_ID);
-        }
-    	 Log.v(TAG, "  - primaryCode = " + primaryCode);
+    	 Log.v(TAG, "onKey - primaryCode = " + primaryCode);
     	 //Log.v(TAG,event.keyCodeToString(keyCode));
 
 
@@ -862,7 +850,7 @@ public class SoftKeyboard extends InputMethodService implements KeyboardView.OnK
             return;
         } else if (primaryCode == Keyboard.KEYCODE_ALT) {
     	    Log.v(TAG, "keycode_ALT");
-            // Show a menu or something
+            // Show a menu or somethin'
         	 // Log.v(TAG,"onKey ---------- KEYCODE_ALT. let's use it as input mode change");
         	if (mInputView != null)
         	{
@@ -938,17 +926,13 @@ public class SoftKeyboard extends InputMethodService implements KeyboardView.OnK
         height = mInputView.getHeight();
         width = mInputView.getWidth();
 
-        //Log.v("단말기 사이즈 ","width : " + width +" height : "+ height);
-        //Log.v("유저 이름", User);
+        Log.v("단말기 사이즈 ","width : " + width +" height : "+ height);
         // DATA 입력
-        if(mInputView.getKeyboard() == mSymbolsKeyboard || mInputView.getKeyboard() == mSymbolsShiftedKeyboard || 
-           mInputView.getKeyboard() == mSymbolsShiftedKeyboard_kor || mInputView.getKeyboard() == mSymbolsKeyboard_kor) {
+        if(mInputView.getKeyboard()== mSymbolsKeyboard || mInputView.getKeyboard() == mSymbolsShiftedKeyboard || mInputView.getKeyboard() == mSymbolsShiftedKeyboard_kor || mInputView.getKeyboard() == mSymbolsKeyboard_kor){
             DatabaseManager.writeNewDB(true, primaryCode,"Sym");
-
-        } else if(kauto.IsHangul((char)primaryCode) == false&&kauto.IsKoreanMode()==false) {
+        }else if(kauto.IsHangul((char)primaryCode)==false&&kauto.IsKoreanMode()==false){
             DatabaseManager.writeNewDB(true, primaryCode,"Eng");
-
-        } else if(mInputView.getKeyboard() == mKoreanShiftedKeyboard || mInputView.getKeyboard() == mKoreanKeyboard)
+        }else if(mInputView.getKeyboard()==mKoreanShiftedKeyboard || mInputView.getKeyboard()==mKoreanKeyboard)
             DatabaseManager.writeNewDB(true, primaryCode,"Kor");
     }
 
