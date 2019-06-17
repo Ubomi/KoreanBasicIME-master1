@@ -176,6 +176,7 @@ public class SoftKeyboard extends InputMethodService implements KeyboardView.OnK
         sensor = sensor_manager.getDefaultSensor(Sensor.TYPE_ORIENTATION);
         sensor_manager.registerListener(listen, sensor, sensor_manager.SENSOR_DELAY_FASTEST);
         return START_REDELIVER_INTENT;
+        //hellomworld!
     }
 
     @Override
